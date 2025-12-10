@@ -1,0 +1,29 @@
+.page {
+    height: 100vh;
+    padding-top: 60px;
+}
+
+.page-content {
+    padding: 10px;
+}
+
+#accueil-alizarine {
+    padding-top: 60px;
+    background-image: url("media/img/chevaux\ peinture.jpg"); /* chemin vers ton image */
+    background-size: cover;       /* l’image couvre toute la zone */
+    background-position: center;  /* centrée */
+    height: 100vh;                /* occupe toute la hauteur de l’écran */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;                 /* texte lisible sur l’image */
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+}
+
+#galerie {
+    background: linear-gradient(to bottom, #e9ecef, #dee2e6);
+}
+
+#contact {
+    background: linear-gradient(to bottom, #e9ecef, #dee2e6);
+}
