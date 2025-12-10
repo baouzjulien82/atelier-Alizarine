@@ -20,6 +20,19 @@
     text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
 }
 
+.card img {
+  border-radius: .25rem 0 0 .25rem; /* haut gauche arrondi, bas gauche carré */
+}
+
+
+.text-muted{
+    font-size: 0._rem;
+}
+
+.span-rs-link {
+    font-size: 0.8rem;
+}
+
 #galerie {
     background: linear-gradient(to bottom, #e9ecef, #dee2e6);
 }
@@ -27,3 +40,22 @@
 #contact {
     background: linear-gradient(to bottom, #e9ecef, #dee2e6);
 }
+
+/* Limite la taille des images sur petits écrans */
+@media (max-width: 576px) {
+  #blason-img {
+    max-width: 50% !important;   /* ou 70%, ajuste selon ton goût */
+    height: auto;
+    display: block;
+    margin: 0 auto;   /* centre l’image */
+  }
+  .page {
+    height: auto;       /* laisse la section s’adapter au contenu */
+    min-height: 100vh;  /* garde un minimum de hauteur */
+  }
+  .card img {
+    border-radius: .25rem .25rem 0 0; /* équivalent de rounded-top */
+  }
+
+}
+

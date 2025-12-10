@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Atelier Alizarine – Association de peinture</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
@@ -33,7 +34,7 @@
 <ul class="navbar-nav ms-auto mb-2 mb-lg-0 border-start ps-3">
   <li class="nav-item dropdown">
     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-      Editions du salon d'automne
+      Éditions du salon d'automne
     </a>
     <ul class="dropdown-menu">
       <li><a class="dropdown-item" href="#">Édition 2025</a></li>
@@ -53,17 +54,38 @@
 <div id="historique" class="page">
   <div class="page-content">
     <h2>Historique</h2>
-  <p>Création en 1996 par les membres fondateurs :</p>
-  <ul>
-    <li>René Beudart</li>
-    <li>Jacques Fournier</li>
-    <li>Line Sabatier</li>
-  </ul>
-  <p>Cristobal Mateo a rejoint l’association en 1998 et en est devenu président en 2011.</p>
+    <div class="card mb-3" style="max-width: 900px;">
+      <div class="row g-0">
+        <!-- Colonne image -->
+        <div class="col-md-2">
+          <img id="blason-img" src="/atelier-Alizarine/media/img/Blason-Poulx.jpg" 
+               class="img-fluid rounded-start" 
+               alt="Blason ville de Poulx">
+        </div>
+        <!-- Colonne texte -->
+        <div class="col-md-10">
+          <div class="card-body">
+            <h5 class="card-title">Création en 1996 par les membres fondateurs :</h5>
+            <ul>
+              <li>René Beudart</li>
+              <li>Jacques Fournier</li>
+              <li>Line Sabatier</li>
+            </ul>
+            <p class="card-text">
+              Cristobal Mateo a rejoint l’association en 1998 et en est devenu président en 2011.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
   <div class="page-content">
     <h3>Présentation de l’Atelier Alizarine</h3>
-  <p>
+    <div class="col-md-5">
+      <img id="groupe-img" src="/atelier-Alizarine/media/img/img-groupe-alizarine.jpg" class="img-fluid rounded mx-auto d-block" alt="photo de groupe de membres de l'association alizarine">
+    </div>
+    <div class="pt-3">
+      <p>
     Nous sommes un groupe d’amis unis par la même passion : la peinture.
     Nous nous réunissons chaque mardi soir pour peindre ensemble.
   </p>
@@ -82,6 +104,7 @@
     région. Cet événement rencontre un succès croissant et sa renommée dépasse
     largement le cadre du village de Poulx.
   </p>
+    </div>
   </div>
 </div>
 </div>
@@ -93,10 +116,41 @@
 <div id="evenement" class="page">
   <div class="page-content">
     <h2>Événement</h2>
-    <h3>25ème Salon ALIZARINE samedi 25 et dimanche 26 octobre 2025</h3>
-    <p>Depuis un quart de siècle l'atelier Alizarine organise son salon d'automne qui permet d'exposer des oeuvres variées et originales d'artistes talentueux, souvent des peintres, mais aussi des sculpteurs ou des céramistes.</p>
-    <p>Cette année, Madelaine Ossikian était l'invitée d'honneur du salon. Cette artiste arlésienne est une conteuse d'image, qui installe ses personnages dans un monde imaginaire, fantaisiste et joyeusement coloré. Sous des dehors faussement naïfs sa peinture raconte des histoires, celles des souvenirs de chacun, teintés de nostalgie parfois de folklore mais avec légèreté et dans un style très personnel.</p>
-    <em>Salles des fêtes André-Vayrette, samedi 25 et dimanche 26 octobre 2025. Vernissage samedi à 18h30. Entrée libre.</em>
+    <p>Depuis un quart de siècle l'atelier Alizarine organise son salon d'automne qui permet d'exposer des œuvres variées et originales d'artistes talentueux, souvent des peintres, mais aussi des sculpteurs ou des céramistes.</p>
+    <div class="card mb-3" style="max-width: 900px;">
+  <div class="row g-0">
+    <!-- Colonne image -->
+    <div class="col-md-5">
+      <img src="/atelier-Alizarine/media/img/Madeleine-Ossikian-portrait.jpg" 
+           class="img-fluid" 
+           alt="Portrait de Madeleine Ossikian">
+    </div>
+    <!-- Colonne texte -->
+    <div class="col-md-7">
+      <div class="card-body">
+        <h5 class="card-title">25ème Salon ALIZARINE samedi 25 et dimanche 26 octobre 2025</h5>
+        <p class="card-text">
+          "Cette année, <a href="https://www.madeleine-ossikian.com/">Madelaine Ossikian</a> était l'invitée d'honneur du salon. Cette artiste arlésienne est une conteuse d'image, qui installe ses personnages dans un monde imaginaire, fantaisiste et joyeusement coloré. Sous des dehors faussement naïfs sa peinture raconte des histoires, celles des souvenirs de chacun, teintés de nostalgie parfois de folklore mais avec légèreté et dans un style très personnel."
+        <br>
+          <span class="span-rs-link"><a href="https://www.facebook.com/madeleine.ossikian" target="_blank" class="me-3">
+          <i class="bi bi-facebook"></i> Facebook
+        </a>
+        <a href="https://www.instagram.com/madeleine.ossikian/" target="_blank">
+          <i class="bi bi-instagram"></i> Instagram
+        </a></span>
+        </p>
+        <p class="card-text">
+          <small class="text-muted">
+            Salles des fêtes André-Vayrette, samedi 25 et dimanche 26 octobre 2025. 
+            Vernissage samedi à 18h30. Entrée libre.
+          </small>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
   </div>
 </div>
 <div id="contact" class="page">
@@ -106,5 +160,6 @@
 </div>
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
   </body>
 </html>
