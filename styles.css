@@ -51,7 +51,7 @@
 
 .page-end {
   padding-top: 60px;
-  min-height: 100vh;
+  min-height: 95vh;
   background: linear-gradient(to bottom, rgba(227,38,54,0.05), #fff);
 }
 
