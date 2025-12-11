@@ -66,7 +66,7 @@ document.addEventListener("DOMContentLoaded", function () {
       img.className = "img-thumbnail";
       img.alt = `Image ${i + 1}`;
 
-      // 👉 Attache l’événement lightbox directement ici
+      // événement lightbox
       img.addEventListener('click', () => openLightbox(img.src));
 
       galerieContainer.appendChild(img);

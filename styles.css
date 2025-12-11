@@ -110,6 +110,9 @@ hr {
 
 .pt-3, .intro-evenement{
   text-align: center;
+  margin: auto;
+  width: 80%;
+  padding: 20px;
 }
 
 /* ================= IMAGES ================= */
@@ -316,11 +319,17 @@ footer {
     font-size: 0.8rem;
   }
 
+  .pt-3, .intro-evenement{
+  text-align: center;
+  margin: auto;
+  width: 100%;
+  padding: 10px;
+}
+
   #toggle-images {
     display: block;
     margin: 20px auto;
     text-align: center;
-    
   }
 
 }
@@ -346,6 +355,11 @@ footer {
   #historique-img {
     height: 240px;
     border-radius: 5px 5px 0 0 !important;
+  }
+    #toggle-images {
+    display: block;
+    margin: 20px auto;
+    text-align: center;
   }
 }
 
